@@ -6,7 +6,8 @@ metadata:
 data:
   ric.conf: |
       SM_DIR = "/usr/local/lib/flexric/"
-      Name = "xApp"
-      NearRT_RIC_IP = "@RIC_IP_ADDRESS@"
+      Name = "NearRT_RIC"
+      NearRT_RIC_IP = "0.0.0.0"
+      E2_Port = 36421
       E42_Port = 36422
 
