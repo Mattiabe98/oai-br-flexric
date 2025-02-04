@@ -5,6 +5,7 @@ metadata:
 #https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/ci-scripts/conf_files/gNB_SA_DU.conf
 data:
   ric.conf: |
+      SM_DIR = "/usr/local/lib/flexric/"
       Name = "xApp"
       NearRT_RIC_IP = "@RIC_IP_ADDRESS@"
       E42_Port = 36422
